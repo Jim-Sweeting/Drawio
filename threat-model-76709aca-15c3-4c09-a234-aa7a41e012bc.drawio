@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T14:29:40.452Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="r024Sg6F7nfkPxMTGcUO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T14:30:39.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8vxbk77UUMLm0QO1Dc_G" version="22.0.8" type="github">
   <diagram name="Page-1" id="611kYRYZ9OJ97hppSyhd">
     <mxGraphModel dx="2603" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,9 +29,6 @@
           <mxGeometry x="-0.0061" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WA_WtLT0ljF8mcfxlGid-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Access to s(1) could result in data disclosure (I)&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Architects Daughter;" parent="1" vertex="1">
-          <mxGeometry x="-489" y="364" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WA_WtLT0ljF8mcfxlGid-3" value="S(1)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-429" y="254" width="120" height="40" as="geometry" />
