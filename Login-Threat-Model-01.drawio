@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T16:29:50.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="bv3XLQnNpssMY2Dt_Kt1" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T16:33:51.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="v8jfHz1HMpG1nikaf_AU" version="22.0.8" type="github">
   <diagram name="Page-1" id="rweh3PoGHOGp1iNtFlVn">
     <mxGraphModel dx="1434" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -18,8 +18,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-3" value="Mobile Device" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="30" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-3" value="Mobile Device" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="qSbEjtJ7Z--CgUCP-I5L-4" value="STS AWS Account" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="245" y="280" width="680" height="400" as="geometry" />
@@ -183,6 +183,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-44" value="??" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="qSbEjtJ7Z--CgUCP-I5L-37">
+          <mxGeometry x="-0.3525" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qSbEjtJ7Z--CgUCP-I5L-38" value="OneLogin &amp;lt;&amp;lt;service&amp;gt;&amp;gt; AWS Account" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="240" y="920" width="290" height="140" as="geometry" />
         </mxCell>
@@ -193,6 +198,11 @@
             <Array as="points">
               <mxPoint x="78" y="990" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-45" value="??" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="qSbEjtJ7Z--CgUCP-I5L-39">
+          <mxGeometry x="0.2215" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qSbEjtJ7Z--CgUCP-I5L-40" value="&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;br&gt;endpoint" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
@@ -208,13 +218,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qSbEjtJ7Z--CgUCP-I5L-30" value="What is the complete list of these Lambda functions? What do they communicate with, and what do they communicate?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;spacingLeft=6;spacingRight=6;" vertex="1" parent="1">
-          <mxGeometry x="690" y="240" width="285" height="80" as="geometry" />
+          <mxGeometry x="610" y="250" width="165" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qSbEjtJ7Z--CgUCP-I5L-31" value="What is this?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="490" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="965" y="495" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qSbEjtJ7Z--CgUCP-I5L-29" value="What is the client registry? What does it store? Is there a process associated with this, or is it just a data store?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;spacingLeft=6;spacingRight=6;" vertex="1" parent="1">
           <mxGeometry x="180" y="610" width="285" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-46" value="What is stored here?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="475" y="827" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="qSbEjtJ7Z--CgUCP-I5L-47" target="qSbEjtJ7Z--CgUCP-I5L-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-47" value="Wallet" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-48" value="Wallet Storage" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
