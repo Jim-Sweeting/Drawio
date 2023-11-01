@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T16:15:57.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="K2egs2CKVNl8ZEEp3rVW" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T16:23:30.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="QLFxkKoRKVrNlkeX9UDB" version="22.0.8" type="github">
   <diagram name="Page-1" id="rweh3PoGHOGp1iNtFlVn">
     <mxGraphModel dx="1434" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -140,6 +140,62 @@
           <mxGeometry x="-0.1722" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-29" value="What is the client registry? What does it store? Is there a process associated with this, or is it just a data store?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;spacingLeft=6;spacingRight=6;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="285" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-30" value="What is the complete list of these Lambda functions? What do they communicate with, and what do they communicate?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;spacingLeft=6;spacingRight=6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="334" width="285" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-31" value="What is this?" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="490" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-32" value="" style="endArrow=classic;html=1;fontColor=#FF3333;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;edgeStyle=orthogonalEdgeStyle;exitX=0.938;exitY=0.263;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qSbEjtJ7Z--CgUCP-I5L-11" target="qSbEjtJ7Z--CgUCP-I5L-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="400" as="sourcePoint" />
+            <mxPoint x="620" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="655" y="460" />
+              <mxPoint x="750" y="460" />
+              <mxPoint x="750" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-33" value="Mobile Platform AWS Account" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-34" value="Site Associations" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="qSbEjtJ7Z--CgUCP-I5L-35" target="qSbEjtJ7Z--CgUCP-I5L-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-35" value="API Gateway" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-37" value="" style="endArrow=classic;html=1;fontColor=#FF3333;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="qSbEjtJ7Z--CgUCP-I5L-3" target="qSbEjtJ7Z--CgUCP-I5L-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="670" as="sourcePoint" />
+            <mxPoint x="620" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-38" value="OneLogin &amp;lt;&amp;lt;service&amp;gt;&amp;gt; AWS Account" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="920" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-39" value="" style="endArrow=classic;html=1;fontColor=#FF3333;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.4;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qSbEjtJ7Z--CgUCP-I5L-3" target="qSbEjtJ7Z--CgUCP-I5L-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="78" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSbEjtJ7Z--CgUCP-I5L-40" value="&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;br&gt;endpoint" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="950" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
