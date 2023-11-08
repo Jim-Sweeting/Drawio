@@ -1,9 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T14:08:29.031Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.0.8" etag="4smZEmxSexZz9qbsitIg" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T10:15:13.215Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gny-pe0HzJkZplQvuCbA" version="22.0.8" type="github">
   <diagram name="Page-1" id="gOX1DHiWtqLOJMdmzvut">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YXUEIopgflgfxFfmi1fx-1" value="GitHub Trust Boundary" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YXUEIopgflgfxFfmi1fx-2" value="AWS Trust Boundary" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YXUEIopgflgfxFfmi1fx-3" value="GDS Trust Boundary?" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YXUEIopgflgfxFfmi1fx-4" value="HMRC Trust Boundary" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YXUEIopgflgfxFfmi1fx-6" value="Technical Threat Model" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="395" y="10" width="380" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="%date{ddd mmm dd yyyy HH:MM:ss}%" placeholders="1" id="YXUEIopgflgfxFfmi1fx-7">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="1000" y="10" width="160" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
