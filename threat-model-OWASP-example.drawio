@@ -1,13 +1,13 @@
-<mxfile host="Electron" modified="2023-11-08T15:53:03.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="0dPI_VMVlajTuRIimPoL" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-08T17:15:03.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="KwATFFQ_nYm7_5Fq7OMz" version="22.0.3" type="device">
   <diagram name="Page-1" id="YvoRuMCAVRzCvK-HOVEK">
-    <mxGraphModel dx="2153" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="o3cyliN7RNUKFfUNL9mk-2" value="p1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-809" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="-810" y="120" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o3cyliN7RNUKFfUNL9mk-3" value="Trust Boundary s(2)" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;rounded=0;" parent="1" vertex="1">
+        <mxCell id="o3cyliN7RNUKFfUNL9mk-3" value="Trust Boundary b1" style="html=1;fontColor=#FF3333;fontStyle=1;align=left;verticalAlign=top;spacing=0;labelBorderColor=none;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#FF3333;spacingLeft=4;spacingTop=-3;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-489" y="84" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="o3cyliN7RNUKFfUNL9mk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" parent="1" source="o3cyliN7RNUKFfUNL9mk-5" target="o3cyliN7RNUKFfUNL9mk-7" edge="1">
@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o3cyliN7RNUKFfUNL9mk-5" value="p2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-409" y="120" width="80" height="80" as="geometry" />
+          <mxGeometry x="-410" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o3cyliN7RNUKFfUNL9mk-7" value="s1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-429" y="254" width="120" height="40" as="geometry" />
@@ -46,6 +46,39 @@
         </mxCell>
         <mxCell id="weVQ9mvuZGD1_3r7K89o-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot; style=&quot;font-size: 14px;&quot;&gt;C01&lt;/font&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-500" y="150" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-6" target="o3cyliN7RNUKFfUNL9mk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-6" value="Spoofing: SSRF request&lt;br&gt;OWASP API7:2023" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-729" y="-120" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-8" value="Spoofing: Replay Attacks" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="-210" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-8" target="o3cyliN7RNUKFfUNL9mk-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-580" y="-30" as="sourcePoint" />
+            <mxPoint x="-389" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-10" value="Tampering: Modified Requests" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="294" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-453" y="-120" as="sourcePoint" />
+            <mxPoint x="-670" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-12" value="DoS: Overload bandwidth with DDoS" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-1040" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-857" y="304" as="sourcePoint" />
+            <mxPoint x="-670" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
