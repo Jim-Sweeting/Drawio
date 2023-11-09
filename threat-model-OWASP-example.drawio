@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-11-08T17:15:03.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="KwATFFQ_nYm7_5Fq7OMz" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-09T16:20:31.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="p9MT0bGVtoQXIZgaqoUu" version="22.0.3" type="device">
   <diagram name="Page-1" id="YvoRuMCAVRzCvK-HOVEK">
-    <mxGraphModel dx="2153" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,42 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-857" y="304" as="sourcePoint" />
             <mxPoint x="-670" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-14" value="Sensitive data written to logs." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="414" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-14" target="o3cyliN7RNUKFfUNL9mk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-857" y="304" as="sourcePoint" />
+            <mxPoint x="-660" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-16" value="Records could be added or deleted unauthorised." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="310" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-17" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-16" target="o3cyliN7RNUKFfUNL9mk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-286" y="424" as="sourcePoint" />
+            <mxPoint x="-349" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-18" value="Information can be read or modified unauthorised" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="200" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-19" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-18" target="o3cyliN7RNUKFfUNL9mk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-286" y="424" as="sourcePoint" />
+            <mxPoint x="-349" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-20" value="Authorised access to Sensitive data may result in excessive or unintended disclosure of that data.." style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-599" y="414" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="weVQ9mvuZGD1_3r7K89o-21" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=oval;endFill=1;" edge="1" parent="1" source="weVQ9mvuZGD1_3r7K89o-20" target="o3cyliN7RNUKFfUNL9mk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-286" y="424" as="sourcePoint" />
+            <mxPoint x="-349" y="304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
