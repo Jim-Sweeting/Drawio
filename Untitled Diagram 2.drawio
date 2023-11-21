@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-11-20T16:14:06.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Ql0rd-Bb4eMU0O6M3MgN" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2023-11-21T10:30:22.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="FpjEne3asNvlXWq_e_IN" version="22.1.2" type="device">
   <diagram name="Page-1" id="dkiBNy_VU2p00hY21MyY">
-    <mxGraphModel dx="1434" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-15" value="CWE (Cause of the vulnerability/weakness)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="570" width="560" height="630" as="geometry">
-            <mxRectangle x="60" y="60" width="60" height="30" as="alternateBounds" />
+            <mxRectangle x="40" y="570" width="170" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-16" value="1. CWE-639:Authorization Bypass Through User-Controlled Key - API01" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-15">
@@ -72,17 +72,17 @@
         <mxCell id="yTmzzn22rcDXvcjyOprt-157" value="20. CWE-778:Insufficient Logging" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-15">
           <mxGeometry y="600" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yTmzzn22rcDXvcjyOprt-44" value="Categories:&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Input/Processing Root Causes&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Authentication,&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;authorisation,&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;verification,&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;validation,&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;error/omission&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;bug&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;Detection Root Causes&amp;nbsp;&lt;/div&gt;(lack of)&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;audit (monitoring/logging)?&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Interception&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Replay&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Injection&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;DoS&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Masquerading&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Error (not in STRIDE)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+        <mxCell id="yTmzzn22rcDXvcjyOprt-44" value="Categories:&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Input/Processing Root Causes&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Authentication, (spoofing)&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Authorisation, (elevation of privilege)&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Verification,&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Validation,&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Error/omission&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Bug&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;Detection Root Causes&amp;nbsp;&lt;/div&gt;(lack of)&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;audit (monitoring/logging)?&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;Types of Attack&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;ul style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Interception&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Replay&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Injection&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;DoS&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Masquerading&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;Error and poor practice (not in STRIDE)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="26.5" y="-260" width="267" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-45" value="STRIDE-LM?&lt;br style=&quot;font-size: 11px;&quot;&gt;LINDDUN" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="269" y="-160" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="269" y="-150" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-46" value="&lt;div style=&quot;text-align: left; font-size: 11px;&quot;&gt;&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Prevention,&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Mitigation,&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Detection,&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;Recovery&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="60" y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-47" value="Impacts:&lt;br style=&quot;font-size: 11px;&quot;&gt;CIA?" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="269" y="-290" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="269" y="-260" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-53" value="" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yTmzzn22rcDXvcjyOprt-52" target="ET-E_L0radJHumGL9apl-4">
           <mxGeometry relative="1" as="geometry">
@@ -114,8 +114,8 @@
             <mxPoint x="428" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTmzzn22rcDXvcjyOprt-83" value="Add&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;All OWASP Top 10 references&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Mitre ATT&amp;amp;CK references&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Mitigations &lt;b style=&quot;font-size: 11px;&quot;&gt;&lt;u style=&quot;font-size: 11px;&quot;&gt;with explicit references&lt;/u&gt;&lt;/b&gt; - people, process, and technical controls (including development patterns and practices).&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Priorities (based on CVSS v4?)&lt;/li&gt;&lt;/ol&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="535" y="630" width="250" height="120" as="geometry" />
+        <mxCell id="yTmzzn22rcDXvcjyOprt-83" value="Add&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;ol style=&quot;font-size: 11px;&quot;&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;All OWASP Top 10 references (both API and Web App)&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Mitre ATT&amp;amp;CK references (TTP)&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Mitigations &lt;b style=&quot;font-size: 11px;&quot;&gt;&lt;u style=&quot;font-size: 11px;&quot;&gt;with explicit references to existing controls or JIRA items&lt;/u&gt;&lt;/b&gt;&amp;nbsp;- people, process, and technical controls (including development patterns and practices).&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Priorities (based on CVSS v4?)&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 11px;&quot;&gt;Depending on the subject, can also add specific threat model or best practice references - i.e. OAuth 2.0, and OIDC.&lt;/li&gt;&lt;/ol&gt;" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="535" y="610" width="375" height="140" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-84" value="NIST CSF?" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="159" y="60" width="131" height="40" as="geometry" />
@@ -184,7 +184,7 @@
           <mxGeometry x="657" y="110" width="113" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-115" value="Categorise CWEs into these headings and/or STRIDE-LM?" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="269" y="-50" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="269" y="-40" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-142" value="" style="orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yTmzzn22rcDXvcjyOprt-121" target="ET-E_L0radJHumGL9apl-4">
           <mxGeometry relative="1" as="geometry">
@@ -249,7 +249,7 @@
           <mxGeometry x="504" y="139" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-108" value="16" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
-          <mxGeometry x="559" y="200" width="20" height="20" as="geometry" />
+          <mxGeometry x="520" y="180" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-30" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
           <mxGeometry x="520" y="400" width="20" height="20" as="geometry" />
@@ -258,16 +258,16 @@
           <mxGeometry x="414" y="550" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-54" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
-          <mxGeometry x="350" y="390" width="20" height="20" as="geometry" />
+          <mxGeometry x="320" y="410" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-59" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
-          <mxGeometry x="330" y="390" width="20" height="20" as="geometry" />
+          <mxGeometry x="300" y="410" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yTmzzn22rcDXvcjyOprt-122" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yTmzzn22rcDXvcjyOprt-119" source="yTmzzn22rcDXvcjyOprt-121" target="ET-E_L0radJHumGL9apl-6">
+        <mxCell id="yTmzzn22rcDXvcjyOprt-122" value="" style="orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yTmzzn22rcDXvcjyOprt-119" source="yTmzzn22rcDXvcjyOprt-121" target="ET-E_L0radJHumGL9apl-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-121" value="17" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
-          <mxGeometry x="90" y="210" width="20" height="20" as="geometry" />
+          <mxGeometry x="220" y="200" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-124" value="" style="orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yTmzzn22rcDXvcjyOprt-119" source="yTmzzn22rcDXvcjyOprt-123" target="ET-E_L0radJHumGL9apl-7">
           <mxGeometry relative="1" as="geometry" />
@@ -279,13 +279,13 @@
           <mxGeometry x="560" y="250" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-88" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;container=0;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
-          <mxGeometry x="310" y="360" width="20" height="20" as="geometry" />
+          <mxGeometry x="300" y="360" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-154" value="18" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
           <mxGeometry x="530" y="140" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-156" value="19" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-119">
-          <mxGeometry x="310" y="390" width="20" height="20" as="geometry" />
+          <mxGeometry x="210" y="420" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-126" value="Flows" style="" parent="0" />
         <mxCell id="yTmzzn22rcDXvcjyOprt-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#66B2FF;fontColor=default;fontSize=11;fillColor=#dae8fc;" edge="1" parent="yTmzzn22rcDXvcjyOprt-126" source="ET-E_L0radJHumGL9apl-6" target="yTmzzn22rcDXvcjyOprt-127">
@@ -318,8 +318,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yTmzzn22rcDXvcjyOprt-134" value="Expand flows to cover business flow and purpose, Include technical details on content and protocol in the table." style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-126">
-          <mxGeometry x="790" y="110" width="230" height="60" as="geometry" />
+        <mxCell id="yTmzzn22rcDXvcjyOprt-134" value="Expand flows to cover business flow and purpose, capture technical details on content and protocol in the table." style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-126">
+          <mxGeometry x="670" y="210" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-135" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#66B2FF;fontColor=default;fontSize=11;fillColor=#dae8fc;" edge="1" parent="yTmzzn22rcDXvcjyOprt-126" source="yTmzzn22rcDXvcjyOprt-127" target="ET-E_L0radJHumGL9apl-4">
           <mxGeometry relative="1" as="geometry">
@@ -399,7 +399,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yTmzzn22rcDXvcjyOprt-158" value="20" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-143">
-          <mxGeometry x="290" y="390" width="20" height="20" as="geometry" />
+          <mxGeometry x="190" y="420" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yTmzzn22rcDXvcjyOprt-160" value="Is there anything missing from the Top25 that we need." style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-143">
+          <mxGeometry x="470" y="-20" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yTmzzn22rcDXvcjyOprt-161" value="" style="orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yTmzzn22rcDXvcjyOprt-143" source="yTmzzn22rcDXvcjyOprt-156" target="ET-E_L0radJHumGL9apl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="377" as="sourcePoint" />
+            <mxPoint x="230" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTmzzn22rcDXvcjyOprt-162" value="" style="orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yTmzzn22rcDXvcjyOprt-143" source="yTmzzn22rcDXvcjyOprt-156" target="ET-E_L0radJHumGL9apl-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="387" as="sourcePoint" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTmzzn22rcDXvcjyOprt-163" value="It&#39;s important to note that several of these CWEs are parents of (in some cases) many subordinate CWEs (CWE-200 for example)" style="shape=note;strokeWidth=2;fontSize=11;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="yTmzzn22rcDXvcjyOprt-143">
+          <mxGeometry x="590" y="780" width="140" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
